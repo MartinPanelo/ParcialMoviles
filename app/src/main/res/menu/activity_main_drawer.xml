@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/ico1"
+            android:title="Lista de tareas" />
+        <item
+            android:id="@+id/nav_gallery"
+            android:icon="@drawable/ico3"
+            android:title="Agregar nueva tarea" />
+        <item
+            android:id="@+id/nav_slideshow"
+            android:icon="@drawable/ico2"
+            android:title="Salir" />
+<!--        <item
+            android:id="@+id/detallesFragment"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="detalles" />-->
+    </group>
+</menu>
