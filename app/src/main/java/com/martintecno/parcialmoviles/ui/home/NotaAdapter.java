@@ -62,8 +62,8 @@ public class NotaAdapter extends RecyclerView.Adapter<NotaAdapter.ViewHolder> {
     public class ViewHolder extends RecyclerView.ViewHolder{
 
         private TextView titulo;
-        private TextView descripcion;
-        private TextView fecha;
+      //  private TextView descripcion;
+      //  private TextView fecha;
 
 
 
@@ -71,7 +71,7 @@ public class NotaAdapter extends RecyclerView.Adapter<NotaAdapter.ViewHolder> {
             super(itemView);
             titulo = itemView.findViewById(R.id.TVTitulo);
         //    descripcion = itemView.findViewById(R.id.TVDescripcion);
-            fecha = itemView.findViewById(R.id.TVFecha);
+         //   fecha = itemView.findViewById(R.id.TVFecha);
 
             itemView.findViewById(R.id.BTNBorrar).setOnClickListener(new View.OnClickListener() {
                 @Override
